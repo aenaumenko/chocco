@@ -8,18 +8,21 @@ body {
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    position: relative;
+   color: #666666
 }
+
 .wrapper {
    position: relative;
    width: 100%;
-   min-width: containerWidth + 20px;
+   min-width: $containerWidth + 20px;
    min-height: 100%;
    overflow: hidden;
 
 }
 .container {
-   width: containerWidth;
+   width: $containerWidth;
    margin:0 auto;
+   position: relative;
 }
 // tag styles reset
 h1,

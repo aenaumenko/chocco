@@ -1,3 +1,4 @@
+$rename: #0b4d3c;
 .btn {
    font-size: 19px;
    font-weight: bold;
@@ -9,11 +10,10 @@
 
    &--theme--white{
       background: #ffffff;
-      color: &darkGreen;
-
+      color: $rename;
       &:hover{
          color: #ffffff;
-         background: &darkGreen;
+         background: $rename;
       }
    }
 }

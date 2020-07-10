@@ -1,9 +1,9 @@
-$conteinerWidth: 940px;
+$containerWidth: 940px;
 $baseFontSize: 18px;
 
 //colors
 $blue: #61c4d9;
-$darkGreen: #0b4d3c;
+$rename: #0b4d3c;
 
 //nornalize
 //@import "npm i normalize.css"
@@ -18,3 +18,12 @@ $darkGreen: #0b4d3c;
 @import "components/features";
 @import "components/feature";
 @import "components/btn";
+@import "components/section";
+@import "components/headline";
+@import "components/benefits";
+@import "components/benefits-section";
+@import "components/benefit";
+@import "components/reviews";
+@import "components/reviews-section";
+@import "components/reviews__switcher";
+@import "components/interactive-avatar";

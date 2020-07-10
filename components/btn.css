@@ -9,9 +9,9 @@
 }
 .btn--theme--white {
   background: #ffffff;
-  color: .btn--theme--white darkGreen;
+  color: #0b4d3c;
 }
 .btn--theme--white:hover {
   color: #ffffff;
-  background: .btn--theme--white:hover darkGreen;
+  background: #0b4d3c;
 }

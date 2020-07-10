@@ -1,0 +1,20 @@
+.reviews-section {
+   position: relative;
+   background: url("../img/decor/palm-leaf.png") left top 97% no-repeat;
+   bottom: -50%;
+
+   &:after{
+      content: url("../img/decor/reviews-right-berries.png");
+      position: absolute;
+      // bottom: -50px;
+      right: 0;
+      top: 0;
+      }
+
+   &:before{
+   content: url("../img/decor/reviews-left-berries.png");
+   position: absolute;
+   bottom: -50px;
+   left: 0;
+   }
+}
